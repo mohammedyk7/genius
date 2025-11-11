@@ -3,11 +3,11 @@ name: first workflow
 on:
   push:
     branches:
-      - main
+      -main
 
 jobs:
   example-job:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: print a welcome message
